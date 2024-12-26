@@ -24,7 +24,6 @@ public class HashStart5 {
         add(buckets, 9);    // 해시 충돌
         System.out.println("Arrays.toString(buckets) = " + Arrays.toString(buckets));
 
-
         // 검색
         int searchValue = 9;
         boolean contains = contains(buckets, searchValue);
